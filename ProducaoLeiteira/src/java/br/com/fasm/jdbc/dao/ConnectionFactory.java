@@ -1,4 +1,4 @@
-package DAO;
+package br.com.fasm.jdbc.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
