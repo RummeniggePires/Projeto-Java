@@ -5,12 +5,12 @@ import java.util.Calendar;
 public class Producao {
 
     private int producao_id;
+    private int animal_id;
+    private String nome;
     private float kg_leite;
     private float teor_gordura;
     private float acidez;
     private Calendar data_registro;
-    private int animal_id;
-    private String nome;
 
     public String getNome() {
         return nome;
@@ -26,6 +26,14 @@ public class Producao {
 
     public void setProducao_id(int producao_id) {
         this.producao_id = producao_id;
+    }
+
+    public int getAnimal_id() {
+        return animal_id;
+    }
+
+    public void setAnimal_id(int animal_id) {
+        this.animal_id = animal_id;
     }
 
     public float getKg_leite() {
@@ -60,13 +68,4 @@ public class Producao {
         this.data_registro = data_registro;
     }
 
-    public int getAnimal_id() {
-        return animal_id;
-    }
-
-    public void setAnimal_id(int animal_id) {
-        this.animal_id = animal_id;
-    }
-    
-    
 }
